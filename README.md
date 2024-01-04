@@ -19,11 +19,14 @@ Im «Share 1 / Code Lab» programmieren wir Datenvisualisierungen mit P5 um uns 
 **Interesse formulieren**
 
 - Formuliert euer Interesse an der Sammlung in Form einer Frage (und ev. Hypothese). **Bleibt dabei simpel – die Zeit ist beschränkt.** Versucht immer festzuhalten, wenn sich euer Interesse über Zeit verändert und wieso (bspw. wenn sich die Frage auf Grund der Daten nicht beantworten lässt, aus Gründen nicht repräsentativ ist, o.ä.). Haltet diese Gedanken im mitgeschickten Dokument *Dokumentation Share 1 Code Lab* fest.
+- Als Inspiration könnt ihr euch auch einige der von [V&A publizierten Beispiele](https://developers.vam.ac.uk/notebooks/data-explorations/intro.html) anschauen.
 
 **Daten entdecken & definieren**
 
 - Versucht zu verstehen, wie die Sammlung entstanden ist. Ev. ist es nötig dazu auch etwas über das Museum und seine Geschichte zu recherchieren. Gibt es ein Bias in den Daten, sind bspw. Werke aus einer bestimmten Zeit oder Region besonders häufig vertreten? Haltet eure Beobachtungen in Stichworten fest.  
-- Schaut euch die API-Dokumentation an um zu verstehen welche Properties es gibt. Wichtig sind hier die Introductions zu [Searching](https://developers.vam.ac.uk/guide/v2/search/introduction.html#searching-top), [Filtering](https://developers.vam.ac.uk/guide/v2/filter/introduction.html) sowie [Clustering](https://developers.vam.ac.uk/guide/v2/data-vis/clustering.html#clustering-top). Welche Möglichkeiten bieten sich dadurch für Visualisierungen? (bspw. Zeitliche, räumliche oder andere Darstellungen). Ihr könnt dazu auch den bereitgestellten Sketch nutzen um via `console.log`einen Eindruck von den Daten und ihrer Struktur zu erhalten. Natürlich dürft ihr auch dazu auch kleine Handskizzen anfertigen, um Ideen festzuhalten. 
+- Schaut euch die [Sammlung](https://www.vam.ac.uk/collections?type=featured) über die Webseite an um ein Gefühl für Daten zu kriegen.
+- Schaut euch die API-Dokumentation an um zu verstehen welche Properties es gibt. Wichtig sind hier der [Quick Start](https://developers.vam.ac.uk/guide/v2/quick-start.html) sowie die Introductions zu [Searching](https://developers.vam.ac.uk/guide/v2/search/introduction.html#searching-top), [Filtering](https://developers.vam.ac.uk/guide/v2/filter/introduction.html) sowie [Clustering](https://developers.vam.ac.uk/guide/v2/data-vis/clustering.html#clustering-top). Welche Möglichkeiten bieten sich dadurch für Visualisierungen? (bspw. Zeitliche, räumliche oder andere Darstellungen). Ihr könnt dazu auch den bereitgestellten Sketch nutzen um via `console.log`einen Eindruck von den Daten und ihrer Struktur zu erhalten. Natürlich dürft ihr auch dazu auch kleine Handskizzen anfertigen, um Ideen festzuhalten. 
+- Durch eine Suche auf der Webseite, bspw. nach der Kategorie `Feminism`, findet ihr die benötigten Identifiers heraus um einen API Query zu schreiben (Schaut dazu in die Browser [URL](https://collections.vam.ac.uk/search/?id_category=THES48955)).
 
 **Ziel** 
 
