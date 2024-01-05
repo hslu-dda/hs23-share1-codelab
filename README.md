@@ -68,3 +68,4 @@ Im «Share 1 / Code Lab» programmieren wir Datenvisualisierungen mit P5 um uns 
 
 - `starter_template` mit P5js Code
 - Dokument *Dokumentation Share 1 Code Lab* zum Festhalten eurer Gedanken und Schritte mit vorgegebener Struktur
+- `example_project` in P5js und mit einer kleinen Dokumentation
