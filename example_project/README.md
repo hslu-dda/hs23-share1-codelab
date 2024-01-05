@@ -23,7 +23,7 @@ d3.json(woman_query).then(json => {
 })
 ```
 
-Ich habe anschliessen das gleiche Vorgehen für die Männer angewendent, leider gibt es wirklich viel mehr Einträge zu Männern und ich konnte die ID zu `Men Artist` nicht finden sollte sie den existieren. 
+Ich habe anschliessen das gleiche Vorgehen für die Männer angewendent, leider gibt es wirklich viel mehr Einträge zu Männern und ich konnte die ID zu `Men Artist` nicht finden (sollte sie den existieren). 
 
 Als zweiten Versuch habe ich direkt nach einem Künstler gesucht um zu sehen ob ich so zur Kategorie komme (`'https://api.vam.ac.uk/v2/objects/search?q_actor=william morris'`) was aber leider auch nicht funktioniert hat. 
 
@@ -33,7 +33,7 @@ Nach einer letzten Suche über die Webseite des V&A nach der Kategorie `Woman Ar
 
 ## Daten Definieren
 
-Da es keine Kategorie `Men Artist` gibt und dadurch ein Vergleich mit `Woman Artist` nicht möglich ist, habe ich mich entschieden zu Untersuchen wie oft Männer bzw. Frauen in Objekten dargestellt werden. Dazu existiert die Property [`depiction`](https://developers.vam.ac.uk/guide/v2/filter/introduction.html#filter-by-depiction). Hier war das [Beispiel](https://developers.vam.ac.uk/guide/v2/data-vis/clustering.html) mit dem Clustering hilfreich um auf die ID's zu kommen. 
+Da es keine Kategorie `Men Artist` gibt und dadurch ein Vergleich mit `Woman Artist` nicht möglich ist, habe ich mich entschieden zu untersuchen wie oft Männer bzw. Frauen in Objekten dargestellt werden. Dazu existiert die Property [`depiction`](https://developers.vam.ac.uk/guide/v2/filter/introduction.html#filter-by-depiction). Hier war das [Beispiel](https://developers.vam.ac.uk/guide/v2/data-vis/clustering.html) mit dem Clustering hilfreich um auf die ID's zu kommen. 
 
 Die ID für `woman` ist `AAT25943` und für `men` `AAT25928`. Die Queries sind wie folgt: 
 
@@ -50,4 +50,4 @@ Ich habe zwei einfache Kreise gezeichnet und dazu die D3 Funktion `d3.scaleSqrt(
 
 ## Interpretation & Erkenntniss
 
-Während ich beim ersten Ansatz davon ausgegangen bin mehr Objekte von männlichen Künstlern zu finden ist es bei der Darstellung umgekehrt. Erkennt man hier eine Objektifizierung der Frau in der Kunst? Zu diesem Zeitpunkt wäre das wohl eine gewagte These. Es wäre aber spannend nun in einem zweiten Schritt weitere Daten für den Vergleich einzubauen. 
+Während ich beim ersten Ansatz davon ausgegangen bin mehr Objekte von männlichen Künstlern zu finden ist es bei der Darstellung umgekehrt. Erkennt man hier eine Objektifizierung der Frau in der Kunst? Zu diesem Zeitpunkt wäre das wohl eine gewagte These. Es wäre aber spannend nun in einem zweiten Schritt weitere Daten für den Vergleich einzubauen. Mit welchen weiteren Kategorien sind bspw. abgebildete Männer und Frauen versehen?
