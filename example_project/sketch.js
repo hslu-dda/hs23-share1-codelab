@@ -19,8 +19,8 @@ function setup() {
   // 9324 is count of the most depicted concept (flowers)
   const scale = d3.scaleSqrt().domain([0, 9324]).range([0, width/2]);
 
-  d3.json(woman_depicted).then(json => {
-    women_data = json;
+  d3.json(woman_depicted).then(response => {
+    women_data = response;
     console.log("Woman", women_data)
 
     w_count = women_data['info']['record_count'];
@@ -28,8 +28,8 @@ function setup() {
     w_size = scale(w_count)
   })
 
-  d3.json(men_depicted).then(json => {
-    men_data = json;
+  d3.json(men_depicted).then(response => {
+    men_data = response;
     console.log("Men", men_data)
 
     m_count = men_data['info']['record_count'];

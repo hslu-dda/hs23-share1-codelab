@@ -22,9 +22,9 @@ let search_by_term_and_year = 'https://api.vam.ac.uk/v2/objects/search??q=femini
 function setup() {
   cnv = createCanvas(400, 400);
 
-  d3.json(search_by_term_and_year).then(json => {
-    data = json;
-    console.log("Results", data)
+  d3.json(search_by_term_and_year).then(response => {
+    data = response;
+    console.log("Reponse", data)
   })
 
 }
