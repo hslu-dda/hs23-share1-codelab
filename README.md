@@ -39,14 +39,15 @@ Im «Share 1 / Code Lab» programmieren wir Datenvisualisierungen mit P5 um uns 
 **Daten Visualisieren**
 
 - Entwickelt grobe Skizzen und Ideen was visualisiert werden soll. Diese dienen dazu eine Idee zu haben, bevor ihr in den Code startet. Behaltet dabei die Programmierung im Hinterkopf und wählt im Zweifelsfall eine simplere Variante, wo ihr wisst wie man sie umsetzen kann.
-- Falls ihr in einer Gruppe arbeitet, könnt ihr selbst entscheiden, ob ihr die Visualisierung gemeinsam macht oder individuell.
+- Falls ihr in einer Gruppe arbeitet, teilt euch verschiedene Aspekte auf. Jede:r sollte mindestens eine Visualisierung programmieren. Dabei kann jede Visualisierung einen Teil-Aspekt eurer Gesammtfrage behandeln.
 - Wechselt schnell in P5 und versucht basierend auf dem Starter Template erste Versuche der Visualisierung zu programmieren.
 - Es ist natürlich auch erlaubt mehrere Code-Sketches zu machen.
 - Beobachten dabei wie sich durch die Visualisierung und das Coding euer Erkenntnissinteresse verändert, weiterentwickelt und verschiebt.
 
 **Ziel** 
 
-- Ihr habt bis zum 22.1. eine oder mehrere kleine Visualisierungen in P5 programmiert welche mithilfe der API Daten eure Frage beantworten oder einer Antwort näher kommen. 
+- Ihr habt bis zum 22.1. mehrere kleine Visualisierungen in P5 programmiert welche mithilfe der API Daten eure Frage beantworten oder einer Antwort näher kommen. 
+– Jede Person in der Gruppe hat mindestens eine Visualisierung programmiert. Diese kann einen Teilaspekt eurer Gesammtfrage beantworten.
 - Ihr haltet dabei Gedanken, Erkenntnisse, Probleme in Stichworten fest.
 
 ### Vierter Halbtag (29.1.) – Abschluss & Abgabe
