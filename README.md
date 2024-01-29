@@ -62,8 +62,14 @@ Im «Share 1 / Code Lab» programmieren wir Datenvisualisierungen mit P5 um uns 
 
 ## Lehrnziele
 
-- Ihr habt Erfahrungen mit einer API und Big Data gemacht und gelernt wie ihr auf diese zugreift.
+- Ihr habt Erfahrungen mit der API vom V&A Museum gemacht und gelernt wie man einen Daten Query schreibt.
+- Ihr wisst wie man die Funktion `d3.json()` nutzt um die Daten von der API in einen Sketch zu laden.
+- Ihr wisst wie ihr einen Teil des `response` in einer Variable speichert um damit eine Visualisierung zu machen, z.b. mit `objectCount = response.info.record_count`
 - Ihr habt erfahren wie sich im Prozess der Explorativen Datenvisualisierung das eigene Interesse, die Möglichkeiten der API und die Erkenntnisse durch die Visualisierung gegenseitig beeinflussen.
+
+### Nachholbedarf? 
+
+Möchtest du nochmals in Ruhe verstehe wie man mit Daten und APIs in P5 arbeitet? Du kannst dir dazu das [Tutorial](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r) von Dan Shiffmann anschauen. Alternativ kannst du auch selbst in einem neuen Sketch nochmals versuchen Daten von der V&A API zu laden und etwas damit zeichnen.
 
 ## Material
 
